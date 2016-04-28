@@ -34,5 +34,15 @@ export const SITES = {
       icon: "",
       url: "http://photocollections.io/search/results?q=@KW@"
     }
+  },
+  "encyclopedias and dictionaries": {
+    "wikipedia": {
+      icon: "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
+      url: "https://en.wikipedia.org/wiki/Special:Search?search=@KW@"
+    },
+    "thefreedictionary": {
+      icon: "http://img.tfd.com/touch/iphone.png",
+      url: "http://www.thefreedictionary.com/@KW@"
+    }
   }
 };
