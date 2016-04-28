@@ -35,6 +35,12 @@ export const SITES = {
       url: "http://photocollections.io/search/results?q=@KW@"
     }
   },
+  "git": {
+    "github": {
+      icon: "https://github.com/apple-touch-icon-180x180.png",
+      url: "https://github.com/search?utf8=%E2%9C%93&q=@KW@"
+    }
+  },
   "encyclopedias and dictionaries": {
     "wikipedia": {
       icon: "https://en.wikipedia.org/static/apple-touch/wikipedia.png",
