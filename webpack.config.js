@@ -1,4 +1,4 @@
-var path = require('path');
+var path = require('path')
 
 module.exports = {
   entry: './src/main.js',
@@ -9,6 +9,6 @@ module.exports = {
   devtool: 'inline-source-map',
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }    ]
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }    ]
   }
-};
+}
